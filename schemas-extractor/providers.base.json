@@ -77,11 +77,15 @@
   "baiducloud": {},
   "bigip": {},
   "bitbucket": {},
-  "brightbox": {},
+  "boundary": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__"
+  },
+  "brightbox": {
+    "repository": "github.com/brightbox/terraform-provider-__NAME__"
+  },
   "checkpoint": {},
   "chef": {},
   "cherryservers": {},
-  "cidr": {},
   "circonus": {},
   "ciscoasa": {},
   "clc": {},
@@ -92,6 +96,9 @@
   "cobbler": {},
   "cohesity" : {},
   "constellix" : {},
+  "corner": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__"
+  },
   "consul": {},
   "datadog": {},
   "digitalocean": {},
@@ -104,6 +111,9 @@
     "go_envs": "GO111MODULE=on"
   },
   "exoscale": {},
+  "fakewebservices": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__"
+  },
   "fastly": {},
   "flexibleengine": {},
   "fortios": {},
@@ -119,6 +129,12 @@
     "go_envs": "GO111MODULE=on"
   },
   "hcloud": {},
+  "hcp": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__"
+  },
+  "hcs": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__"
+  },
   "hedvig": {},
   "helm": {},
   "heroku": {},
@@ -137,7 +153,9 @@
     "repository": "github.com/hashicorp/terraform-provider-__NAME__"
   },
   "lacework" : {},
-  "launchdarkly": {},
+  "launchdarkly": {
+    "repository": "github.com/launchdarkly/terraform-provider-__NAME__"
+  },
   "librato": {},
   "linode": {},
   "logentries": {},
@@ -180,6 +198,9 @@
   "rubrik": {},
   "rundeck": {},
   "runscope": {},
+  "scaffolding-goreleaser": {
+    "repository": ""
+  },
   "scaleway": {},
   "selectel": {},
   "signalfx": {},
