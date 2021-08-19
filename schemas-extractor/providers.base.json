@@ -14,7 +14,7 @@
   "oci": {
   },
   "azure": {
-    "repository": "github.com/terraform-providers/terraform-provider-azure-classic",
+    "repository": "github.com/hashicorp/terraform-provider-azure-classic",
     "pkg_name": "azure"
   },
   "azure-classic" : {
@@ -69,10 +69,18 @@
   "auth0": {},
   "avi": {},
   "aviatrix": {},
-  "aws": {},
-  "azuread": {},
+  "aws": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__"
+  },
+  "azuread": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__",
+    "pkg_name": "internal"
+  },
   "azuredevops": {},
-  "azurerm": {},
+  "azurerm": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__",
+    "pkg_name": "internal/services"
+  },
   "azurestack": {},
   "baiducloud": {},
   "bigip": {},
@@ -121,10 +129,17 @@
   "github": {},
   "gitlab": {},
   "google": {},
+  "googleworkspace": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__"
+  },
   "google-beta": {},
   "grafana": {},
   "gridscale": {},
   "hashicups": {
+    "repository": "github.com/hashicorp/terraform-provider-__NAME__",
+    "go_envs": "GO111MODULE=on"
+  },
+  "hashicups-pf": {
     "repository": "github.com/hashicorp/terraform-provider-__NAME__",
     "go_envs": "GO111MODULE=on"
   },

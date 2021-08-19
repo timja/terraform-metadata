@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform/backend"
 	binit "github.com/hashicorp/terraform/backend/init"
 	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform/internal/legacy/helper/schema"
 	"github.com/zclconf/go-cty/cty"
 
 	"encoding/json"

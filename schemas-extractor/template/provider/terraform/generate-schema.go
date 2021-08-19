@@ -3,7 +3,8 @@ package main
 //noinspection GoUnresolvedReference
 import (
 	prvdr "__REPOSITORY__/__PKG_NAME__"
-	"github.com/hashicorp/terraform/helper/schema"
+
+	"github.com/hashicorp/terraform/internal/legacy/helper/schema"
 	tf "github.com/hashicorp/terraform/terraform"
 
 	"encoding/json"

@@ -11,7 +11,7 @@ out="$CUR/schemas/providers"
 mkdir -p "$out"
 rm -f "$failures"
 
-update_all
+#update_all
 
 echo
 echo "========================================"
@@ -23,6 +23,9 @@ echo
 function process_provider() {
   name="$1"
   if [[ "$name" == "__NAME__" ]]; then
+    return 0
+  fi
+  if [[ "$name" != "azurerm" ]]; then
     return 0
   fi
   skip_generation="$(jq_get "$name" 'skip_generation')"
